@@ -49,6 +49,7 @@ ryf-website/
   - donations.html
   - index.html
   - services.html
+  - style.css
 
 # Workflow
 
@@ -66,11 +67,13 @@ ryf-website/
 - [ ] Final troubleshooting.
 - [ ] Deploy and test.
 
-# AI Reminders
+# AI Instructions
 
 I will ocassionally share this text with you. The reasoning behind it is to allow you to remember the core project ideas and help you stay on track.
 
 When asked to make an update on a file such as html, or css, for example, always provide the whole updated script afterwards even if the update was a tiny change. This makes copying and pasting a ot easier for me.
+
+Don't leave any comments in the code.
 
 When this text is shared with you, always read what is in it, analyze it, see how it relates to your answers, and always respond with: "README received and processed!"
 
