@@ -20,6 +20,10 @@ ryf-website/
 - docs/
   - README.md
 - frontend/
+  - images/
+    - ryf-logo.png
+    - ryf-pfp.jpeg
+    - ryf-presentation.png
   - contact.html
   - donations.html
   - index.html
@@ -35,16 +39,25 @@ ryf-website/
 - docs/
   - README.md
 - frontend/
+  - images/
+    - ryf-logo.png
+    - ryf-pfp.jpeg
+    - ryf-presentation.png
+  - contact.html
+  - donations.html
+  - index.html
+  - services.html
 
 # Workflow
 
 - [x] Introduce project to AI.
 - [x] Determine structure, look, and basic features of website.
 - [ ] Develop all html pages.
-  - [ ] index
-  - [ ] services
-  - [ ] donate
-  - [ ] contact
+  - [x] index.html
+  - [x] services.html
+  - [ ] donations.html
+    - [ ] Set up PayPal
+  - [ ] contact.html
 - [ ] Develop css.
 - [ ] Develop js.
 - [ ] Optimize for mobile screens.
