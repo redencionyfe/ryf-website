@@ -8,6 +8,10 @@ The purpose of this project is to provide the Tampa-Bay-based Hispanic church "I
 
 The website will be a relatiely simple, static, multi-page project. We will make use of html, css, js, github, vs code, and cloudflare.
 
+The main page will have a brief intro to the church. All the content in the website will be Spanish. A sticky navbar will be at the top with the following buttons: Inicio (index.html), Servicios (services.html), Donaciones (donations.html), Contactanos (contact.html).
+
+The color palette of the website will be white as base bg, gold as color 1, and navy blue as color 2.
+
 # Desired Project Structure
 
 ryf-website/
@@ -17,7 +21,7 @@ ryf-website/
   - README.md
 - frontend/
   - contact.html
-  - donate.html
+  - donations.html
   - index.html
   - main.js
   - services.html
@@ -34,8 +38,8 @@ ryf-website/
 
 # Workflow
 
-- [ ] Introduce project to AI.
-- [ ] Determine look and basic features of website.
+- [x] Introduce project to AI.
+- [x] Determine structure, look, and basic features of website.
 - [ ] Develop all html pages.
   - [ ] index
   - [ ] services
@@ -55,4 +59,6 @@ When asked to make an update on a file such as html, or css, for example, always
 
 When this text is shared with you, always read what is in it, analyze it, see how it relates to your answers, and always respond with: "README received and processed!"
 
-You will never say anything else in response to the message where this READMI is shared. The only exeption is when I tell you to do or say something immediately bellow this line in the same message.
+You will not say anything else in response to the message where this README is shared. THE ONLY EXCEPTION is when I tell you to do or say something immediately bellow the "---" line in the same message, in which case you will say "README received and processed!" and then respond to whatever it was I told you bellow the "---" line.
+
+---
