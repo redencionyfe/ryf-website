@@ -61,7 +61,7 @@ ryf-website/
   - [x] donations.html
     - [x] Set up PayPal
   - [x] contact.html
-- [ ] Develop css.
+- [x] Develop css.
 - [ ] Develop js.
 - [ ] Optimize for mobile screens.
 - [ ] Final troubleshooting.
