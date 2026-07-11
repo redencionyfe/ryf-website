@@ -21,6 +21,7 @@ ryf-website/
   - README.md
 - frontend/
   - images/
+    - favicon.ico
     - ryf-logo.png
     - ryf-pfp.jpeg
     - ryf-presentation.png
@@ -40,6 +41,7 @@ ryf-website/
   - README.md
 - frontend/
   - images/
+    - favicon.ico
     - ryf-logo.png
     - ryf-pfp.jpeg
     - ryf-presentation.png
@@ -52,12 +54,12 @@ ryf-website/
 
 - [x] Introduce project to AI.
 - [x] Determine structure, look, and basic features of website.
-- [ ] Develop all html pages.
+- [x] Develop all html pages.
   - [x] index.html
   - [x] services.html
-  - [ ] donations.html
-    - [ ] Set up PayPal
-  - [ ] contact.html
+  - [x] donations.html
+    - [x] Set up PayPal
+  - [x] contact.html
 - [ ] Develop css.
 - [ ] Develop js.
 - [ ] Optimize for mobile screens.
