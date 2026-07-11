@@ -62,7 +62,7 @@ ryf-website/
     - [x] Set up PayPal
   - [x] contact.html
 - [x] Develop css.
-- [ ] Develop js.
+- [x] Develop js.
 - [ ] Optimize for mobile screens.
 - [ ] Final troubleshooting.
 - [ ] Deploy and test.

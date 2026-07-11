@@ -11,9 +11,12 @@
       content="Iglesia de Dios Redención y Fe - Una iglesia hispana en Tampa Bay dedicada a compartir el amor de Dios y Su palabra."
     />
 
+    <meta name="theme-color" content="#0b1f3a" />
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +26,6 @@
   </head>
 
   <body>
-    <!-- Navbar -->
     <header>
       <nav class="navbar">
         <div class="brand">
@@ -31,6 +33,7 @@
             <img
               src="images/ryf-logo.png"
               alt="Logo Iglesia de Dios Redención y Fe"
+              loading="lazy"
             />
           </a>
 
@@ -40,7 +43,14 @@
           </a>
         </div>
 
-        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
 
         <ul class="nav-links" id="nav-links">
           <li><a href="index.html" class="active">Inicio</a></li>
@@ -51,7 +61,6 @@
       </nav>
     </header>
 
-    <!-- Hero Section -->
     <main>
       <section class="hero">
         <div class="hero-content">
@@ -59,6 +68,7 @@
             src="images/ryf-presentation.png"
             alt="Iglesia de Dios Redención y Fe"
             class="hero-image"
+            loading="eager"
           />
 
           <p>
@@ -70,7 +80,6 @@
         </div>
       </section>
 
-      <!-- About Section -->
       <section class="about">
         <h2>Nuestra Iglesia</h2>
 
@@ -82,7 +91,6 @@
         </p>
       </section>
 
-      <!-- Services Preview -->
       <section class="services-preview">
         <h2>Servicios</h2>
 
@@ -115,7 +123,6 @@
         <a href="services.html" class="btn secondary-btn"> Ver horarios </a>
       </section>
 
-      <!-- Call To Action -->
       <section class="cta">
         <h2>¡Te esperamos!</h2>
 
@@ -128,7 +135,6 @@
       </section>
     </main>
 
-    <!-- Footer -->
     <footer>
       <div class="footer-content">
         <h3>Iglesia de Dios Redención y Fe</h3>
