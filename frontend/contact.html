@@ -11,9 +11,10 @@
       content="Información de contacto de Iglesia de Dios Redención y Fe en Tampa, Florida. Dirección, teléfono y correo electrónico."
     />
 
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +24,6 @@
   </head>
 
   <body>
-    <!-- Navbar -->
     <header>
       <nav class="navbar">
         <div class="brand">
@@ -40,7 +40,9 @@
           </a>
         </div>
 
-        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+          ☰
+        </button>
 
         <ul class="nav-links" id="nav-links">
           <li><a href="index.html">Inicio</a></li>
@@ -51,9 +53,7 @@
       </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-      <!-- Page Header -->
       <section class="page-header">
         <h1>Contáctanos</h1>
 
@@ -63,7 +63,6 @@
         </p>
       </section>
 
-      <!-- Contact Information -->
       <section class="contact-section">
         <h2>Información de Contacto</h2>
 
@@ -72,8 +71,14 @@
             <h3>Dirección</h3>
 
             <p>
-              13889 W Hillsborough Ave<br />
-              Tampa, FL 33635-9655
+              <a
+                href="https://www.google.com/maps?q=13889+W+Hillsborough+Ave,+Tampa,+FL+33635-9655"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                13889 W Hillsborough Ave<br />
+                Tampa, FL 33635-9655
+              </a>
             </p>
           </div>
 
@@ -109,22 +114,20 @@
         </div>
       </section>
 
-      <!-- Map Section -->
       <section class="map-section">
         <h2>Encuéntranos</h2>
 
-        <iframe
-          src="https://www.google.com/maps?q=13889%20W%20Hillsborough%20Ave,%20Tampa,%20FL%2033635-9655&output=embed"
-          width="100%"
-          height="400"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        >
-        </iframe>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps?q=13889%20W%20Hillsborough%20Ave,%20Tampa,%20FL%2033635-9655&output=embed"
+            loading="lazy"
+            allowfullscreen=""
+            title="Ubicación de Iglesia de Dios Redención y Fe"
+          >
+          </iframe>
+        </div>
       </section>
 
-      <!-- Call To Action -->
       <section class="cta">
         <h2>¡Esperamos verte pronto!</h2>
 
@@ -135,7 +138,6 @@
       </section>
     </main>
 
-    <!-- Footer -->
     <footer>
       <div class="footer-content">
         <h3>Iglesia de Dios Redención y Fe</h3>
