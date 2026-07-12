@@ -63,9 +63,9 @@ ryf-website/
   - [x] contact.html
 - [x] Develop css.
 - [x] Develop js.
-- [ ] Optimize for mobile screens.
-- [ ] Final troubleshooting.
-- [ ] Deploy and test.
+- [x] Optimize for mobile screens.
+- [x] Final troubleshooting.
+- [x] Deploy and test.
 
 # AI Instructions
 
