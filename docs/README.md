@@ -1,14 +1,14 @@
-# Iglesia de Dios Redencion y Fe Website
+# Igreja Redenção e Fé Website
 
 ## INTRO
 
-The purpose of this project is to provide the Tampa-Bay-based Hispanic church "Iglesia de Dios Redencion y Fe" with a website. This one will be relatively simple.
+The purpose of this project is to provide the Tampa-Bay-based Portuguese-speaking church "Igreja Redenção e Fé" with a website. This one will be relatively simple project.
 
 ## Description
 
 The website will be a relatiely simple, static, multi-page project. We will make use of html, css, js, github, vs code, and cloudflare.
 
-The main page will have a brief intro to the church. All the content in the website will be Spanish. A sticky navbar will be at the top with the following buttons: Inicio (index.html), Servicios (services.html), Donaciones (donations.html), Contactanos (contact.html).
+The main page will have a brief intro to the church. All the content in the website will be Portuguese. A sticky navbar will be at the top with buttons that lead to index.html, services.html, donations.html, contact.html.
 
 The color palette of the website will be white as base bg, gold as color 1, and navy blue as color 2.
 
@@ -64,8 +64,9 @@ ryf-website/
 - [x] Develop css.
 - [x] Develop js.
 - [x] Optimize for mobile screens.
-- [x] Final troubleshooting.
-- [x] Deploy and test.
+- [ ] Make sure everything appears in Portuguese.
+- [ ] Final troubleshooting.
+- [ ] Deploy and test.
 
 # AI Instructions
 
